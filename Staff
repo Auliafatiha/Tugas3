@@ -1,0 +1,21 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Modul3;
+
+/**
+ *
+ * @author LENOVO
+ */
+public class Staff extends Employee{
+ private String bagian;
+ public Staff (String bagian){
+     this.bagian= bagian;
+ }
+    @Override
+    String getbagianpegawai(){return bagian;
+      
+    }
+    
+}
