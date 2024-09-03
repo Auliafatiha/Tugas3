@@ -1,0 +1,19 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Modul3;
+
+/**
+ *
+ * @author LENOVO
+ */
+public class Test1 {
+    public static void main(String args[]){
+        Employee staf = new Staff("Pengembangan Akademik");
+        Employee faculti = new Faculty("Pengembangan Akademis");
+        
+        System.out.println("Posisi Staff: " +staf.getbagianpegawai());
+        System.out.println("Bagian Faculty: " +faculti.getbagianpegawai());
+    }
+}
