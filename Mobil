@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Modul3;
+
+/**
+ *
+ * @author LENOVO
+ */
+public class Mobil implements Kendaraan {
+
+    @Override
+    public void bergerak() {
+        System.out.println("Mobil bergerak di jalan raya.");
+    }
+
+    @Override
+    public void berhenti() {
+        System.out.println("Mobil berhenti di lampu merah.");
+    }
+}
